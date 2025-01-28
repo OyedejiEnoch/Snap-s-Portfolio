@@ -2,7 +2,6 @@
 import Button from "@/components/Button";
 import { FC, useEffect, useState } from "react";
 import {motion, useAnimate} from 'motion/react'
-import { nav } from "motion/react-client";
 
 /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 const navItems = [
@@ -118,7 +117,7 @@ const Header: FC = () => {
           <div className="flex justify-between h-20 items-center">
         {/* Left */}
             <div>
-              <a href="/"><span className="text-xl font-bold uppercase text-white">Enoch&nbsp;Snap&apos;s</span></a>
+              <a href="/"><span className="text-xl font-bold uppercase text-white">Snap&apos;s Photography</span></a>
             </div>
           </div>
       </div>
