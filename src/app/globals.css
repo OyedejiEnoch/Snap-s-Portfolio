@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-snap-type: smooth;
+}
+
+.section{
+    @apply py-24 md:py-32
+}
+
+.line {
+    @apply overflow-hidden
+}
+
+.word{
+    @apply translate-y-full
+}
+
+.scrollbar-hidden {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
