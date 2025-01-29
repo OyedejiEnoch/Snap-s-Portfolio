@@ -30,7 +30,7 @@ const FAQs: FC = () => {
 
   const [selectedIndex, setSelectedIndex]= useState<number | null>(null)
 
-  return <section id="faqs" className="section">
+  return <section id="faqs" className="section max-md:px-2">
     <div className="container">
       <h2 className="text-4xl md:text-7xl lg:text-8xl">FAQs</h2>
 

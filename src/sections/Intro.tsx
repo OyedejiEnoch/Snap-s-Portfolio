@@ -31,7 +31,7 @@ const Intro: FC = () => {
     }
   }, [inView, animate, scope])
 
-  return <section id="intro" className="py-24 mt-12 md:py-32 md:mt-16" ref={scope}>
+  return <section id="intro" className="py-24 mt-12 md:py-32 md:mt-16 max-md:px-1" ref={scope}>
     <div className="container">
       <h2 className="text-5xl md:text-7xl lg:text-7xl ">Taking beautiful pictures dedicated to capturing moments that tell stories blending creativity with emotion in every shot. Let&apos;s create something beautiful together!</h2>
     {/* Taking beautiful pictures that truly captivates */}

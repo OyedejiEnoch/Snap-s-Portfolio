@@ -50,7 +50,7 @@ const Testimonial = ({quote, name, role, company, image, imagePositionY, classNa
                  <Image src={image} alt={name}  className="size-full object-cover" style={{objectPosition:`50% ${imagePositionY *100} `}} />
                </div>
    
-               <blockquote className="md:col-span-3">
+               <blockquote className="md:col-span-3 max-md:px-2">
                  <div className="text-3xl md:text-5xl lg:text-6xl mt-8" ref={quoteScope}>
                    <span>&ldquo;</span>
                    {quote}

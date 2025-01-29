@@ -30,7 +30,7 @@ const Pictures = () => {
 
 
   return (
-    <section id="pictures" className="py-24">
+    <section id="pictures" className="py-24 max-md:px-1">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl lg:text-6xl mb-8">Amazing takes</h2>
 

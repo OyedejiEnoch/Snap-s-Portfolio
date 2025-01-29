@@ -68,7 +68,7 @@ const Footer: FC = () => {
 
   }
 
-  return <footer id="contact" className="bg-black text-white ">
+  return <footer id="contact" className="bg-black text-white max-md:px-1">
     <div className="container">
       <div className="section">
 
