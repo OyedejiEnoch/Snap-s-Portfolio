@@ -88,8 +88,8 @@ const Testimonials: FC = () => {
       <div className="mt-20">
         {testimonials.map(({name,company, role, quote, image, imagePositionY}, index)=>(
           index === testimonialIndex &&
-          <AnimatePresence mode="wait" initial={false}>
-            <Testimonial key={name} name={name} company={company} role={role} quote={quote} image={image} imagePositionY={imagePositionY} />
+          <AnimatePresence key={name} mode="wait" initial={false}>
+            <Testimonial name={name} company={company} role={role} quote={quote} image={image} imagePositionY={imagePositionY} />
           </AnimatePresence>
         ))}
       </div>

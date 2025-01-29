@@ -35,7 +35,7 @@ const Header: FC = () => {
   const [bottomLineScope, bottomLineAnimate] = useAnimate();
   const [navScope, navAnimate] = useAnimate();
 
-
+/* eslint-disable @typescript-eslint/no-unused-expressions */
   useEffect(()=>{
     if(isOpen){
       topLineAnimate([
